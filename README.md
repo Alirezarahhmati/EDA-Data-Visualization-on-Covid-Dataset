@@ -1,8 +1,9 @@
-﻿Covid Dataset
+# ﻿Covid Dataset
 
-Course Name : Data Science Name : Alireza Rahmati Student Id : 400222038
+Course Name : Data Science 
+Name : Alireza Rahmati 
 
-Introduction :
+## Introduction :
 
 The COVID-19 pandemic has been a global health crisis that has profoundly affected populations around the world. Amidst the myriad factors influencing the severity and outcome of COVID-19 cases, understanding the potential correlation between smoking rates and total deaths is of considerable interest. This project embarks on an exploratory data analysis (EDA) journey using a comprehensive COVID-19 dataset to unravel insights into the relationship between smoking habits and the impact on mortality rates.
 
@@ -10,7 +11,7 @@ The dataset under scrutiny encompasses a wealth of information, spanning various
 
 The findings from this project not only contribute to our understanding of the COVID-19 pandemic but also provide valuable insights for public health initiatives and policies. By examining the intricate interplay between smoking habits and mortality rates, we strive to contribute to the ongoing dialogue on effective strategies to mitigate the impact of the virus on global populations.
 
-Data Preprocessing :
+## Data Preprocessing :
 
 Initially, we undertook the task of cleaning our dataset, addressing missing values, and managing outliers.
 
@@ -34,7 +35,7 @@ Concluding our data preprocessing efforts, we have successfully cleaned and prep
 
 iso\_code 0 continent 0 location 0 date 0 total\_cases 0 new\_cases 0 new\_cases\_smoothed 10869 total\_deaths 0 new\_deaths 0 new\_deaths\_smoothed 10788 total\_cases\_per\_million 0 new\_cases\_per\_million 0 new\_cases\_smoothed\_per\_million 10869 total\_deaths\_per\_million 0 new\_deaths\_per\_million 0 new\_deaths\_smoothed\_per\_million 10788 reproduction\_rate 170648 icu\_patients 0 icu\_patients\_per\_million 0 hosp\_patients 0 hosp\_patients\_per\_million 0 weekly\_icu\_admissions 0 weekly\_icu\_admissions\_per\_million 0 weekly\_hosp\_admissions 0 weekly\_hosp\_admissions\_per\_million 0 total\_tests 0 new\_tests 0 total\_tests\_per\_thousand 276078 new\_tests\_per\_thousand 280062 new\_tests\_smoothed 251500 new\_tests\_smoothed\_per\_thousand 251500 positive\_rate 0 tests\_per\_case 261117 tests\_units 248677 total\_vaccinations 0 people\_vaccinated 279158 people\_fully\_vaccinated 0 total\_boosters 307510 new\_vaccinations 0 new\_vaccinations\_smoothed 172810 total\_vaccinations\_per\_hundred 0 people\_vaccinated\_per\_hundred 0 people\_fully\_vaccinated\_per\_hundred 0 total\_boosters\_per\_hundred 307510 new\_vaccinations\_smoothed\_per\_million 172810 new\_people\_vaccinated\_smoothed 173044 new\_people\_vaccinated\_smoothed\_per\_hundred 173044 stringency\_index 157814 population\_density 0 median\_age 0 aged\_65\_older 0 aged\_70\_older 0 gdp\_per\_capita 0 extreme\_poverty 178166 cardiovasc\_death\_rate 0 diabetes\_prevalence 65700 female\_smokers 0 male\_smokers 0 handwashing\_facilities 0 hospital\_beds\_per\_thousand 0 life\_expectancy 0 human\_development\_index 88212 population 0 excess\_mortality\_cumulative\_absolute 343254 excess\_mortality\_cumulative 343254 excess\_mortality 343254 excess\_mortality\_cumulative\_per\_million 343254 dtype: int64
 
-EDA :
+## EDA :
 
 For the Exploratory Data Analysis (EDA), it is imperative to begin by examining the correlation matrix.
 
@@ -114,7 +115,7 @@ Turning our attention to the impact of vaccination coverage, we will identify an
 
 ![](Aspose.Words.03eb0e65-76d9-466c-8945-3a4b3c051a05.020.jpeg)
 
-Conclusion :
+## Conclusion :
 
 In conclusion, this exploratory data analysis of the COVID-19 dataset has unveiled crucial insights into the multifaceted impact of the pandemic. We observed distinct patterns in total cases and deaths, with notable disparities among continents and countries. Health indicators such as life expectancy and diabetes prevalence emerged as influential factors, while the profound effect of vaccination on mitigating new cases and deaths became evident. The analysis also highlighted the correlation between smoking rates and COVID-19 severity.
 
